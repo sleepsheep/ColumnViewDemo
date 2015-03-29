@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    //类似网易新闻NavBar下面的可横向滑动的效果
     ViewController *MVC = [ViewController new];
     UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:MVC];
     
